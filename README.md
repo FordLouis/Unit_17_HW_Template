@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <head>
+    <title>Homework 17 Solved</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="asset/My Logo.png" alt="img-thumbnail" width="50">
+      <p>Ford Louis</p>
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </header>
+    <section class="heroImg">
+      <div class="content">
+        <img src="asset/self image.png" alt="img-thumbnail" width="150">
+        <h1>Ford Louis</h1>
+        <p>I specialize in making UI look eye-catchy, clean & Elegant. My goal is to merge functionality with aesthetics for the best user experience. I thrive to be the best designer that ever existed.</p>
+        <button>Download Resume</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </footer>
+  </body>
+</html>
