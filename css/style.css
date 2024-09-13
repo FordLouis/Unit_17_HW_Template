@@ -1,9 +1,14 @@
 body {
   margin: 0;
+
 }
 header {
-  background-color: #373738;
+  background-color: #092910;
   padding: 15px;
+}
+header img{
+  max-width: 10rem;
+  min-height: 2rem;
 }
 header ul {
   float: right;
@@ -14,12 +19,25 @@ header li {
   padding: 0px 5px;
 }
 header p {
-  display: inline-block;
+  color: white;
 }
+header p{
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+  color: #EBEBEB;
+  font-size: 22px;
+  
+
+}
+
 .heroImg {
-  background-color: #EBEBEB;
+  background-color: white;
   padding: 100px 15px;
 }
+
 .content {
   max-width: 300px;
   margin: 0 auto;
@@ -29,15 +47,19 @@ header p {
 }
 button {
   padding: 15px;
-  background-color: #373738;
-  color: white;
+  background-color: #04df29;
+  color: rgb(249, 253, 250);
   font-size: 15px;
   border-radius: 4px;
 }
 footer {
-  background-color: #373738;
+  background-color: #033b11;
   padding: 5px;
-  color: white;
+  color: rgb(239, 242, 239);
+}
+.footer{
+  display:block;
+  unicode-bidi: isolate;
 }
 footer ul {
   list-style: none;
@@ -46,4 +68,13 @@ footer ul {
 footer li {
   display: inline-block;
   padding: 0px 7px;
+}
+footer {
+  background: #033202;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 9%;
+  position: fixed;
 }
